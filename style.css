@@ -1,0 +1,126 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    table-layout: fixed;
+}
+
+/* Header */
+header {
+    background-color: #b2d8f2;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+/* Nav */
+nav {
+     background-color: #0b1f46;
+     padding: 10px 0;
+     margin-top: 6px;
+}
+
+nav a {       
+     color: rgb(246, 241, 241);
+     padding: 8px 15px;
+     margin: 1 3px;
+     font-weight: bold;
+}
+
+nav a:hover {
+     background-color: #20206d;
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.123);
+}
+
+section h2 {
+    font-size: 24px;
+    color: #12283e;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+section p {
+    font-size: 20px;
+    color: #000000;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/* Estilo de listas */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+ul li a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Enlaces */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para las secciones de contacto */
+section ul li {
+    font-size: 18px;
+}
+
+/* Estilo de texto en negrita y cursiva */
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+/*Pie de pagina*/    
+               
+footer {
+    background-color: #080b1c;
+    text-align: center;
+    padding: 15px;
+    border-top: 5px solid #3a4491;
+    font-size: 0.9rem;
+    color: #f3f3f3;
+}
+
+
